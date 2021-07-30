@@ -1,4 +1,5 @@
-[Link](https://leetcode.com/problems/populating-next-right-pointers-in-each-node)
+[Link](https://leetcode.com/problems/populating-next-right-pointers-in-each-node)<br/>
+
 I used 2 approaches to solve the problem, one is using recursion and one is iterative using level-order traversal.
 # Recursion
   idea: to define a helper function that allows us to pass in 2 nodes and connect them, and then let recursion do its work
