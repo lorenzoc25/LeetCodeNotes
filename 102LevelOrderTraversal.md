@@ -1,3 +1,4 @@
+```c++
 // this approach didn't use the typical queue apporach, instead, it uses recursion
 // to make the whole code cleaner
 
@@ -29,3 +30,26 @@ public:
         helper(curr->right, level + 1, ans);
     }
 };
+```
+Now this is a regular iterative approach using queue
+
+```python
+    def levelOrder(self, root: TreeNode) -> List[List[int]]:
+        if not root: return
+        q = deque()
+        q.append(root)
+        res = []
+        while q:
+            currLevel = []
+            # idea: remember how many nodes are there in each level 
+            for i in range(len(q)):
+                # after we pop the node, we add the child of it
+                node = q.popleft()
+                if node:
+                    currLevel.append(node.val)
+                    q.append(node.left)
+                    q.append(node.right)
+
+            currLevel and res.append(currLevel)
+        return res
+```
