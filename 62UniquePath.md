@@ -27,4 +27,15 @@ class Solution:
                     dp[i][j] = dp[i-1][j] + dp[i][j-1]
         return dp[m-1][n-1]
 ```
-* Note: the order of checking only works because python support negative index accessing(so [-1] give the access to the last element) and by default the last element of each row is 0. For other languages, this order will be wrong
+* Note: This code has flaws: the order of checking only works because python support negative index accessing(so [-1] give the access to the last element) and by default the last element of each row is 0. For other languages, this order will be wrong.  
+
+The better order should be 
+```python
+                if i > 0 and j > 0: # not at the corner or edge, can go both right and down
+                    dp[i][j] = dp[i-1][j] + dp[i][j-1]
+                elif i > 0: # j = 0, at left col, can only reach here by go down
+                    dp[i][j] = dp[i-1][j]
+                elif j > 0: # i = 0, at top row, can only reach here by go right
+                    dp[i][j] = dp[i][j-1]
+                
+```
