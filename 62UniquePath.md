@@ -15,7 +15,7 @@
 ```python
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
-        dp = [[0]*n]*m
+        dp = [[0]*n for i in range(m)]
         dp[0][0] = 1
         for i in range(m):
             for j in range(n):
