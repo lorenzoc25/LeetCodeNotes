@@ -27,3 +27,4 @@ class Solution:
                     dp[i][j] = dp[i-1][j] + dp[i][j-1]
         return dp[m-1][n-1]
 ```
+* Note: the order of checking only works because python support negative index accessing(so [-1] give the access to the last element) and by default the last element of each row is 0. For other languages, this order will be wrong
