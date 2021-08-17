@@ -15,8 +15,7 @@
                                                                   +-----------------> choose 5 --> found the amount, return 
   ```
                                                                   
-   we could use recursion to finish the problem, but the amound of calls we need to make is huge, so we can use dynamic programming to store the results of every 
-   amount of coins, which would make the whole process much more efficient.
+   we could use recursion to finish the problem, but the amount of calls we need to make is huge. Instead, we can use dynamic programming to store the results of every amount of coins, which would make the whole process much more efficient.
    So how should we start it? If we want to store all the result from 0 to amount, we need an array of amount + 1 slots.  
    For each amount, the max number of coins you can use to make up the amount will be amount(i.e. use 12 ones to make up one) and we always know that if amount is 0 we 
    can return 0, so we can initialize the dp array as 
@@ -30,8 +29,7 @@
    amount because we know that the maximum possible number that our program could generate will be amount for each slot, so that will serve the purpose.  
    Then, we can write the logic for the decision for each slot.
    
-   for each slot, if I can use a coin in the avaliable coins, I'll change that slot's value to the smaller value between it's current value or 1 + the minimum number
-   of coins for value (current amount - current coin value)
+   for each slot, if I can use a coin in the avaliable coins, I'll change that slot's value to the smaller value between it's current value or 1 + the minimum number of coins for value (current amount - current coin value)
    
    in code, it will look like`dp[amt] = min(dp[amt], 1 + dp[amt - coin])`
    
