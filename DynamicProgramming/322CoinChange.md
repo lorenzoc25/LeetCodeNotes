@@ -6,6 +6,7 @@
    - use a 1, then we have an amount of 12 - 1 = 11, the total coins needed will be 1 + whaterver number of coins we need for amount 1
    - use a 2, we have amount of 12 - 2 = 10, the total coins needed will be 1 + whaterver number of coins we need for amount 10
    - use a 5, amount will be 7 and the total coins needed will be 1 + whaterver number of coins we need for amount 7
+  
    It's not hard to find out that if we want to solve the problem in this way, we could break the large problems into many smaller ones. So like in this example, the
    optimal solution should be using 3 coins of 5, 5, and 2, and the process should be something like this(order does not matter):  
    ```
