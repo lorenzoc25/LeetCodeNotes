@@ -1,7 +1,6 @@
+the first approach is kinda of cheating, the idea is to construct an array using in-order traversal and return the k-th element in the array since the BST must be in order
+```py
 class Solution:
-    # the first approach is kinda of cheating, the idea is to construct an array using in-order traversal and return
-    # the k-th element in the array since the BST must be in order
-
     def kthSmallest(self, root: TreeNode, k: int) -> int:
         self.arr = []
 
@@ -16,8 +15,9 @@ class Solution:
 
         inOrd(root)
         return self.arr[k-1]
-
-    # this approach's idea is to go to the smallest element (the farthest left) and then try to search from that on
+```
+this approach's idea is to go to the smallest element (the farthest left) and then try to search from that on
+```py
     def kSstack(self, root, k):
         # construct a root of left nodes since left is always the smaller one
         stk = []
@@ -32,5 +32,5 @@ class Solution:
             if k == 0:  # if we arrived the kth smallest element
                 return root.val
             root = root.right  # go to the right node if possible due to the natural of BST
-
         return
+```
