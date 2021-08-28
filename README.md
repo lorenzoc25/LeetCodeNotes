@@ -19,6 +19,7 @@ The purpose of this repo is try to expalin all the solutions in detail instead o
 - 102 [Level Order Traversal](https://github.com/lorenzoc25/LeetCodeNotes/blob/main/Trees/102LevelOrderTraversal.md)
 - 114 [Flatten Tree](https://github.com/lorenzoc25/LeetCodeNotes/blob/main/Trees/114FlattenTree.md)
 - 116 [Populating Next Pointer to Each Node](https://github.com/lorenzoc25/LeetCodeNotes/blob/main/Trees/116PopluatingPtr.md)
+- 138 [Copy List with Random Pointer](https://github.com/lorenzoc25/LeetCodeNotes/blob/main/LinkedList/138CpListWRand.md)
 - 173 [Binary Search Tree Iterator](https://github.com/lorenzoc25/LeetCodeNotes/blob/main/Trees/173BSTIt.md)
 - 121 [Best Time To Sell Stock](https://github.com/lorenzoc25/LeetCodeNotes/blob/main/Arrays/121BestTimeSellStock.py)
 - 122 [Best Time To Sell Stock II](https://github.com/lorenzoc25/LeetCodeNotes/blob/main/DynamicProgramming/122StockII.md)
