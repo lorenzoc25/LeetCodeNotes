@@ -3,7 +3,7 @@
    Since we are asked to give out the minimum number of coins needed to make up for a certain amount, the very first thing comes to mind is that we could list all 
    the possiblities of coins.  
    So if we have the amount of 12 and are provided with coin option of `[1, 2, 5]`, we can attempt to find the solution by using all the possible coins avaliable:  
-   - use a 1, then we have an amount of 12 - 1 = 11, the total coins needed will be 1 + whaterver number of coins we need for amount 1
+   - use a 1, then we have an amount of 12 - 1 = 11, the total coins needed will be 1 + whaterver number of coins we need for amount 11
    - use a 2, we have amount of 12 - 2 = 10, the total coins needed will be 1 + whaterver number of coins we need for amount 10
    - use a 5, amount will be 7 and the total coins needed will be 1 + whaterver number of coins we need for amount 7
   
