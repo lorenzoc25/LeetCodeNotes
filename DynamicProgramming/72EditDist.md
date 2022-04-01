@@ -43,7 +43,7 @@
    # initialization
     m,n = len(word1), len(word2)
     dp = [[0] * (n+1) for _ in range(m+1)]
-    # dp[i][j] =>  min edit distance for word1[:i] and word2[:j]
+    # dp[i][j] =>  min edit distance for word1[i:] and word2[j:]
     # base cases
     for i in range(m+1): # if one word is empty, its min edit is the len of other
             dp[i][0] = i
