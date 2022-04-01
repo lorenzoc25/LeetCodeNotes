@@ -3,8 +3,9 @@
    This solution is heavily influenced by the [top-voted discussion post](https://leetcode.com/problems/edit-distance/discuss/159295/Python-solutions-and-intuition), which was really helpful and strongly recommended to read.
 
    The very first approach is try to solve this problem in brute force. Without any constraint, how could we solve the problem? If we take a detailed look, it's not hard to find out that the problem can be viewed in this way:
-    - for every index pair of word1 and word2, if they are the same, we can just consider the rest of them
-    - if an action is needed, we want to find the minimum action to make them the same
+* for every index pair of word1 and word2, if they are the same, we can just consider the rest of them
+* if an action is needed, we want to find the minimum action to make them the same
+    
    thus, the logic for the editing part is done and can be implemented by
    ```python
     if word1[0] == word2[0]:
