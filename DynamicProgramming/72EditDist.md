@@ -5,6 +5,7 @@
    The very first approach is try to solve this problem in brute force. Without any constraint, how could we solve the problem? If we take a detailed look, it's not hard to find out that the problem can be viewed in this way:
 * for every index pair of word1 and word2, if they are the same, we can just consider the rest of them
 * if an action is needed, we want to find the minimum action to make them the same
+    
    thus, the logic for the editing part is done and can be implemented by
    ```python
     if word1[0] == word2[0]:
@@ -42,7 +43,7 @@
    # initialization
     m,n = len(word1), len(word2)
     dp = [[0] * (n+1) for _ in range(m+1)]
-    # dp[i][j] =>  min edit distance for word1[:i] and word2[:j]
+    # dp[i][j] =>  min edit distance for word1[i:] and word2[j:]
     # base cases
     for i in range(m+1): # if one word is empty, its min edit is the len of other
             dp[i][0] = i
