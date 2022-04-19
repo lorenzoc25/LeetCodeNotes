@@ -4,6 +4,9 @@ Personal leetcode notes with comments / insights behind them. Not all of them ar
 The purpose of this repo is try to expalin all the solutions in detail instead of just presenting solution that are sometimes hard to comprehend.
 
 ## Index
+### Algorithm Notes
+- [Morris In-Order Traversal](https://github.com/lorenzoc25/LeetCodeNotes/blob/main/Trees/MorrisTrav.md)
+
 ### Sort by Numbers
 
 - 2 [Add 2 Numbers](https://github.com/lorenzoc25/LeetCodeNotes/blob/main/LinkedList/2Add2Num.cpp)
@@ -35,4 +38,4 @@ The purpose of this repo is try to expalin all the solutions in detail instead o
 - 1689 [Partitioning Into Minimum Number Of Deci-Binary Numbers](https://github.com/lorenzoc25/LeetCodeNotes/blob/main/Greedy/1689Partition...Numbers.py)
 
 ### Topics
-[Arrays](https://github.com/lorenzoc25/LeetCodeNotes/tree/main/Arrays) | [BFS/DFS](https://github.com/lorenzoc25/LeetCodeNotes/tree/main/BFS:DFS) | [DP](https://github.com/lorenzoc25/LeetCodeNotes/tree/main/DynamicProgramming) | [Greedy](https://github.com/lorenzoc25/LeetCodeNotes/tree/main/Greedy) | [Linked List](https://github.com/lorenzoc25/LeetCodeNotes/tree/main/LinkedList) | [Stacks/Queues](https://github.com/lorenzoc25/LeetCodeNotes/tree/main/Stacks:Queues) | [Strings](https://github.com/lorenzoc25/LeetCodeNotes/tree/main/String) | [Trees](https://github.com/lorenzoc25/LeetCodeNotes/tree/main/Trees)
+[Arrays](https://github.com/lorenzoc25/LeetCodeNotes/tree/main/Arrays) | [BFS/DFS](https://github.com/lorenzoc25/LeetCodeNotes/tree/main/BFS:DFS) | [DP](https://github.com/lorenzoc25/LeetCodeNotes/tree/main/DynamicProgramming) | [Greedy](https://github.com/lorenzoc25/LeetCodeNotes/tree/main/Greedy) | [Linked List](https://github.com/lorenzoc25/LeetCodeNotes/tree/main/LinkedList) | [Stacks/Queues](https://github.com/lorenzoc25/LeetCodeNotes/tree/main/Stacks:Queues) | [Strings](https://github.com/lorenzoc25/LeetCodeNotes/tree/main/Strings) | [Trees](https://github.com/lorenzoc25/LeetCodeNotes/tree/main/Trees)
