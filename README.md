@@ -35,6 +35,7 @@ The purpose of this repo is try to expalin all the solutions in detail instead o
 - 739 [Daily Temperatures](https://github.com/lorenzoc25/LeetCodeNotes/blob/main/Stacks:Queues/739DailyTemp.py)
 - 921 [Minimum Add to Make Parentheses Valid](https://github.com/lorenzoc25/LeetCodeNotes/blob/main/String/921MinimiumAddParen.md)
 - 931 [Minimum Falling Path Sum](https://github.com/lorenzoc25/LeetCodeNotes/blob/main/DynamicProgramming/931MinFallingPath.md)
+- 1584 [Min Cost to Connect All Points](https://github.com/lorenzoc25/LeetCodeNotes/blob/main/Greedy/1584MinCostToAllPts.md)
 - 1689 [Partitioning Into Minimum Number Of Deci-Binary Numbers](https://github.com/lorenzoc25/LeetCodeNotes/blob/main/Greedy/1689Partition...Numbers.py)
 
 ### Topics
